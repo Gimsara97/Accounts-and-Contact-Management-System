@@ -1,0 +1,10 @@
+<template>
+    <lightning-datatable
+        key-field="Id"
+        data={accountRecords.data}
+        columns={columns}
+        hide-checkbox-column
+        show-row-number-column
+        onrowaction={handleRowAction}
+    ></lightning-datatable>
+</template>
